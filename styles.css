@@ -83,15 +83,14 @@ header nav a {
     }
   }
   .nav-small {
-    padding-left: 200px;
+    padding-left: 160px;
     margin: 15px ;
     font-size: 18px;
   }
   
   .nav-small a {
-    margin-left: 100px;
-    margin-bottom: 10px
-    5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
   }
   .btn {
     color: var(--icon-color);
@@ -113,35 +112,39 @@ header nav a {
 
   .about-section > div {
     margin-top: 35px;
-    margin-bottom: 125px;
+    
   }
     
   .about-content {
-    padding: 0px 170px;
+    padding: 0px 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .about-content img {
+    width: 90%;
   }
   .grid-items{
     margin-top: 30px;
     height: 10px;
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
+    justify-content: left;
+    align-content: flex-start;
   }
   .icon{
     height: 40px;
     margin-right: 100px;
-    justify-content: center;
-  
+    
   }
   main {
     background-color: var(--secondary-color);
-    margin: 50px 0px;
+    margin: 50px 0px ;
     padding: 50px 50px;
   }
-  
+
   .section-one {
-    height: 80vh;
+    height: 50vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -155,15 +158,21 @@ header nav a {
 
   .about-forme {
    grid-column: 2 / 4;
-   padding: 20px;
-   margin-top: -150px;
+   padding: 5px;
+   margin-top: -50px;
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: left;
    text-align: center;
-    
 }
-
+.about-forme h2{
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+.about-forme p{
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
 .article-image img {
   width: 30%;
   margin-left: 10px;
@@ -176,20 +185,28 @@ header nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   text-align: center;
+  margin-top: 10px;
 }
-
+.article-content h2 {
+  padding: 0%;
+  margin: 0%;
+}
 .section-two {
   background-color: var(--main-color) ;
-  height: 100vh;
+  height: 60vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 25% 50% 25%;
   grid-template-rows: repeat(4, 1fr);
   text-align: left;
   }
   .experience{
     text-align: center;
+    margin-top: -60px;
+    
+  }
+  .items-experience{
+    margin-top: -70px;
   }
   .aling-content{
   display: flex;
@@ -197,28 +214,30 @@ header nav a {
   }
   
   .aling-content img{
-    margin-left: 10px;
-    width: 15%;
+    margin-left: 50px;
+    width: 56px;
   }
 
 .aling-content h2{
-    padding-left: 20px;
-    margin: 10px 0px 0px;
-    text-align: left;
+ padding-left: 20px;
+ margin: 10px -10px 0px;
+ text-align: left;
 }
 .content-aling label{
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .aling-content p{
+   flex-direction: row;
     height: 40px;
     padding-top: 45px;
-    margin-left: 140px;
-    justify-content: left;
+    margin-left: 120px;
+    text-align: left;
 }
 .section-tree {
   height: 100vh;
+  width: auto;
   background-color: var(--main-color) ;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -243,9 +262,10 @@ header nav a {
  }
  .content-center h2{
   text-align: center;
+  margin-top: -20px;
  }
  .items-section-tree{
-  margin-left: 300px;
+  margin-left: 100px;
   height: 100%;
   width: 60%;
   display: flex;
@@ -272,7 +292,7 @@ header nav a {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   text-align: left;
-  gap: 115px 75px;
+  gap: 50px 15px;
   padding: 10px 150px;
   
  }
@@ -284,8 +304,8 @@ header nav a {
  }
 
  .section-for img{
-  height: 400px;
-  width: 660px;
+  height: 290px;
+  width: 460px;
   z-index: 1;
   position: absolute;
   padding: 25px 25px;
