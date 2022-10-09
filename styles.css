@@ -103,6 +103,7 @@ header nav a {
   .btn {
     color: var(--icon-color);
  }
+
  .about-section {
     display: grid;
     grid-template-columns: 45% 55%;
@@ -140,31 +141,45 @@ header nav a {
     margin: 50px 0px ;
     padding: 50px 50px;
   }
-@media (max-width: 480px) {
-    .about-section {
-      margin-top: -80px;
-      width: 430px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;    
-    }
-    .about-section div{
-      padding: 5%;
-    }
-    .icon{
-      margin-top: -20px;
-      margin-left: -10px ;
-    }
-    .about-content {
-     padding-bottom: 1px;
-    }
-    main {
-      background-color: var(--secondary-color);
-      margin: 50px 0px ;
-      padding: 50px 50px;
-    }
-}
 
+@media (max-width: 480px) {
+
+  .about-section {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-section > div {
+    margin-top: 35px;
+    padding-left: 25px;
+    
+  }
+    
+  .about-content {
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-content img {
+    width:256px;
+  }
+  .grid-items{
+    margin-left: -40px;
+    margin-top: 30px;
+    height: 10px;
+   
+  }
+  .picture{
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .icon{
+ 
+    margin-right: -186px;
+    
+  }
   .section-one {
     height: 50vh;
     display: grid;
@@ -467,8 +482,8 @@ header nav a {
  }
 
  .section-for img{
-  height: 290px;
-  width: 460px;
+  height: 340px;
+  width: 545px;
   z-index: 1;
   position: absolute;
   padding: 25px 25px;
