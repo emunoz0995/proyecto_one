@@ -145,11 +145,15 @@ header nav a {
 @media (max-width: 480px) {
 
   .about-section {
-    width: 400px;
+    width: 385px;
     display: flex;
     flex-direction: column;
   }
+  p {
+    color: var(--selector-color);
 
+    margin-left: -20px;
+  }
   .about-section > div {
     margin-top: 35px;
     padding-left: 25px;
@@ -157,6 +161,7 @@ header nav a {
   }
     
   .about-content {
+    width: 360px;
     padding: 0px 0px;
     display: flex;
     flex-direction: column;
@@ -257,8 +262,8 @@ header nav a {
   padding-bottom: 5%;
 }
 .about-forme p{
-  padding: 5px 15px;
-  margin: 5px 5px;
+ 
+  font-size: 17px;
 }
 .article-image img {
   width: 20%;
